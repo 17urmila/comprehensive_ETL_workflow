@@ -3,19 +3,19 @@
 The task aims to extract data from CSV, JSON, and XML formats, transform it,
 and load the transformed data into a structured format for further processing.<br><br>
 
-<strong>Tools used : Python <br><br>
+<strong>Tools used : Python <br>
 
 <h3>Basic Workflow : </h3>
 <strong>Step 1: Download the files<br>
   
 <strong>Step2 : Import the necessary libraries <br>
-  pandas to read CSV and JSON files.<br>
-  xml.etree.ElementTree to parse XML data.<br>
-  logging to create logfile. <br>
+> pandas to read CSV and JSON files.<br>
+>  xml.etree.ElementTree to parse XML data.<br>
+>  logging to create logfile. <br>
   
 <strong>Step3 : Set up paths for
-  logfile.log to record the logs.
-  transformed_data.csv to save the final output.
+>  logfile.log to record the logs.
+>  transformed_data.csv to save the final output.
 
 <strong>Step4 : Extraction
 > Extract the CSV, JSON, XML files into dataframes <br>
