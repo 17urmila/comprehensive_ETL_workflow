@@ -6,24 +6,26 @@ and load the transformed data into a structured format for further processing.<b
 <strong>Tools used : Python <br>
 
 <h3>Basic Workflow : </h3>
-<strong>Step 1: Download the files<br>
+<strong>Step 1: Download the files
+> Download the files from the given link <br> 
   
-<strong>Step2 : Import the necessary libraries <br>
+<strong>Step2 : Import the necessary libraries 
 > pandas to read CSV and JSON files.<br>
->  xml.etree.ElementTree to parse XML data.<br>
->  logging to create logfile. <br>
+> xml.etree.ElementTree to parse XML data.<br>
+> logging to create logfile. <br>
   
 <strong>Step3 : Set up paths for
 >  logfile.log to record the logs.
 >  transformed_data.csv to save the final output.
 
 <strong>Step4 : Extraction
-> Extract the CSV, JSON, XML files into dataframes <br>
+> Extract the CSV, JSON, XML files into pandas dataframes <br>
 
 <strong>Step5 : Transformation
 > After txtraction, combine all the dataframes <br>
 > Some necessary transformations are applied on the dataframe such as changing the column datatypes, heights from inches to meters, weights from pounds to 
-  kilograms, deleting of extra columns <br>
+  kilograms<br>
+> deleting of extra columns <br>
   
 <strong>Step6 : Loading  
 > After all the transforms done the data is loaded into a csv file <br>
