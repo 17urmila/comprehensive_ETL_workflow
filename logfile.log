@@ -1,0 +1,11 @@
+2025-01-19 11:52:19,686 - my_logger - INFO - Extracting data from csv file: /content/source1.csv
+2025-01-19 11:52:19,691 - my_logger - INFO - Extracting data from json file: /content/source1.json
+2025-01-19 11:52:19,697 - my_logger - INFO - Extracting data from xml file: /content/source1.xml
+2025-01-19 11:52:19,701 - my_logger - INFO - Necessary data transformation
+2025-01-19 11:52:19,702 - my_logger - INFO - Combining the dataframes
+2025-01-19 11:52:19,706 - my_logger - INFO - Converting the datatypes of the dataframe
+2025-01-19 11:52:19,710 - my_logger - INFO - Converting the height column from inches to cms
+2025-01-19 11:52:19,713 - my_logger - INFO - Converting the weight column from pounds to kgs
+2025-01-19 11:52:19,715 - my_logger - INFO - Dropping the extra columns
+2025-01-19 11:52:19,717 - my_logger - INFO - Loading transformed dataframe to a csv file
+2025-01-19 11:52:19,726 - my_logger - INFO - Etl process completed
