@@ -6,8 +6,9 @@ and load the transformed data into a structured format for further processing.<b
 <strong>Tools used : Python <br>
 
 <h3>Basic Workflow : </h3>
+
 <strong>Step 1: Download the files <br>
-> Download the files from the given link <br> 
+> download the files from the given link <br> 
   
 <strong>Step2 : Import the necessary libraries <br>
 > pandas to read CSV and JSON files.<br>
